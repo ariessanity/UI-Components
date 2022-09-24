@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/UI-Components/static/css/main.b689f246.css",
+    "main.js": "/UI-Components/static/js/main.dddaf483.js",
+    "index.html": "/UI-Components/index.html",
+    "main.b689f246.css.map": "/UI-Components/static/css/main.b689f246.css.map",
+    "main.dddaf483.js.map": "/UI-Components/static/js/main.dddaf483.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b689f246.css",
+    "static/js/main.dddaf483.js"
+  ]
+}
