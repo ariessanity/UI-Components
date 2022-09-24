@@ -1,0 +1,55 @@
+@import "../Styles/Variables/Variables.scss";
+
+.card {
+  width: 55rem;
+  padding: 2rem;
+  background-color: $color-primary;
+  border-radius: $border-radius-md;
+  display: flex;
+  align-items: center;
+
+  &__img {
+    position: relative;
+    img {
+      width: 20rem;
+      height: 20rem;
+      border-radius: $border-radius-md;
+    }
+
+    span {
+      font-size: $font-size-normal;
+      color: $color-primary;
+      padding: 0.3rem 1rem;
+      background-color: $color-tertiary;
+      border-radius: $border-radius-sm;
+      position: absolute;
+      bottom: 7%;
+      right: 1.2rem;
+    }
+  }
+
+  &__info {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2rem;
+
+    h1 {
+      font-size: $font-size-normal;
+      font-weight: 700;
+
+      span {
+        color: $color-secondary;
+        font-weight: 400;
+      }
+    }
+
+    h2 {
+      del {
+        color: $color-secondary;
+        margin-left: 2rem;
+      }
+    }
+  }
+}

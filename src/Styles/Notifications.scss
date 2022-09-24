@@ -1,0 +1,60 @@
+@import "../Styles/Variables/Variables.scss";
+
+.notification {
+  padding: 1rem 1rem 0 1rem;
+  width: 60rem;
+  height: 48rem;
+  border-radius: $border-radius-md;
+  background-color: $color-primary;
+  overflow: auto;
+
+  &__icon {
+    position: absolute;
+    right: 3rem;
+    top: 1.3rem;
+    transform: scale(1.5);
+    cursor: pointer;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  ul {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+      background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: rgba($color-secondary, 0.3);
+    }
+
+    li {
+      list-style: none;
+      margin: 0 1rem;
+      position: relative;
+
+      h1 {
+        font-size: $font-size-normal;
+        margin-top: 2rem;
+        margin-left: 6rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+        margin-left: 6rem;
+        margin-bottom: 2rem;
+      }
+
+      hr {
+        border: 0.1px solid rgba(0, 0, 0, 0.102);
+      }
+    }
+  }
+}
